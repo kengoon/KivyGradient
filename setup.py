@@ -1,4 +1,9 @@
 from setuptools import setup
+from pathlib import Path
+
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='KivyGradient',
@@ -8,5 +13,7 @@ setup(
     license='MIT',
     author='kengo',
     author_email='kengoon19@gmail.com',
-    description='KivyGradient allows you to add a gradient color to your Kivy Widget'
+    description='KivyGradient allows you to add a gradient color to your Kivy Widget',
+    install_requires=["kivy"],
+    long_description=long_description
 )

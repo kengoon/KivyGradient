@@ -44,7 +44,7 @@ from kivy.lang import Builder
 
 kv = """
 #:import get_color_from_hex kivy.utils.get_color_from_hex
-#:import Gradient test.Gradient
+#:import Gradient kivy_gradient.Gradient
 RelativeLayout:
     BoxLayout
         id: box
@@ -72,3 +72,5 @@ class Test(App):
 Test().run()
 
 ```
+
+![gradient](https://user-images.githubusercontent.com/42192162/132247485-bb48a2ed-ff48-4388-8fff-68a7eb11f69e.png)

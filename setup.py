@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='KivyGradient',
-    version='0.0.3',
+    version='0.0.4',
     packages=['kivy_gradient'],
     url='https://github.com/kengoon/KivyGradient',
     license='MIT',

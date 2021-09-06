@@ -1,6 +1,8 @@
 # KivyGradient
 KivyGradient allows you to add a gradient color to your Kivy Widget
 
+## Install
+`pip install kivygradient`
 
 ### Example Code
 

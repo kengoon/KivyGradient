@@ -1,4 +1,8 @@
 # KivyGradient
+[![Verified on Openbase](https://badges.openbase.com/python/verified/KivyGradient.svg?token=uB6Wpsv+XO63mMbzByWnKIP6GTMZsQ5CXr4PQvqrqU8=)](https://openbase.com/python/KivyGradient?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
+[![Featured on Openbase](https://badges.openbase.com/python/featured/KivyGradient.svg?token=uB6Wpsv+XO63mMbzByWnKIP6GTMZsQ5CXr4PQvqrqU8=)](https://openbase.com/python/KivyGradient?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
+[![KivyGradient Versions](https://badges.openbase.com/python/versions/KivyGradient.svg?token=uB6Wpsv+XO63mMbzByWnKIP6GTMZsQ5CXr4PQvqrqU8=)](https://openbase.com/python/KivyGradient?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
+
 KivyGradient allows you to add a gradient color to your Kivy Widget
 
 ## Install

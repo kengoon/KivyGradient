@@ -55,7 +55,7 @@ class Gradient(object):
                 c2 = colors[min(i + 1, num_colors)]
 
                 rgba = [
-                    int(255 * (c1[j] + frac * (c2[j] - c1[j])))
+                    int(255 * min(max(c1[j] + frac * (c2[j] - c1[j]), 0.0), 1.0))
                     for j in range(4)
                 ]
                 index = 4 * (y * w + x)

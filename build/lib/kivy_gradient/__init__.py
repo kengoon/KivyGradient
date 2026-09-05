@@ -7,36 +7,17 @@ class Gradient(object):
 
     @staticmethod
     def horizontal(*args):
-        if not args:
-            raise ValueError('Gradient.horizontal() requires at least one color')
-        size = len(args)
-        texture = Texture.create(size=(size, 1), colorfmt='rgba')
+        texture = Texture.create(size=(len(args), 1), colorfmt='rgba')
         buf = bytes([int(v * 255) for v in chain(*args)])  # flattens
 
         texture.blit_buffer(buf, colorfmt='rgba', bufferfmt='ubyte')
-
-        if size < 2:
-            return texture
-
-        texture.uvpos = (0.5 / size, 0)
-        texture.uvsize = ((size - 1) / size, 1)
         return texture
 
     @staticmethod
     def vertical(*args):
-        if not args:
-            raise ValueError('Gradient.vertical() requires at least one color')
-        size = len(args)
-        texture = Texture.create(size=(1, size), colorfmt='rgba')
+        texture = Texture.create(size=(1, len(args)), colorfmt='rgba')
         buf = bytes([int(v * 255) for v in chain(*args)])  # flattens
-
         texture.blit_buffer(buf, colorfmt='rgba', bufferfmt='ubyte')
-
-        if size < 2:
-            return texture
-
-        texture.uvpos = (0, 0.5 / size)
-        texture.uvsize = (1, (size - 1) / size)
         return texture
         
     @staticmethod
@@ -74,7 +55,7 @@ class Gradient(object):
                 c2 = colors[min(i + 1, num_colors)]
 
                 rgba = [
-                    int(255 * min(max(c1[j] + frac * (c2[j] - c1[j]), 0.0), 1.0))
+                    int(255 * (c1[j] + frac * (c2[j] - c1[j])))
                     for j in range(4)
                 ]
                 index = 4 * (y * w + x)

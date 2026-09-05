@@ -1,3 +1,22 @@
+Metadata-Version: 2.4
+Name: KivyGradient
+Version: 0.0.4
+Summary: KivyGradient allows you to add a gradient color to your Kivy Widget
+Home-page: https://github.com/kengoon/KivyGradient
+Author: kengo
+Author-email: kengoon19@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: kivy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
+
 # KivyGradient
 [![Verified on Openbase](https://badges.openbase.com/python/verified/KivyGradient.svg?token=uB6Wpsv+XO63mMbzByWnKIP6GTMZsQ5CXr4PQvqrqU8=)](https://openbase.com/python/KivyGradient?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
 [![Featured on Openbase](https://badges.openbase.com/python/featured/KivyGradient.svg?token=uB6Wpsv+XO63mMbzByWnKIP6GTMZsQ5CXr4PQvqrqU8=)](https://openbase.com/python/KivyGradient?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)

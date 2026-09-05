@@ -1,0 +1,8 @@
+README.md
+setup.py
+KivyGradient.egg-info/PKG-INFO
+KivyGradient.egg-info/SOURCES.txt
+KivyGradient.egg-info/dependency_links.txt
+KivyGradient.egg-info/requires.txt
+KivyGradient.egg-info/top_level.txt
+kivy_gradient/__init__.py

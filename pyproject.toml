@@ -1,0 +1,56 @@
+[project]
+name = "kivygradient"
+version = "0.1.0"
+description = "KivyGradient allows you to add a gradient color to your Kivy Widget"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "kivy>=2.3.1",
+]
+authors = [
+    { name = "Kenechukwu Akubue", email = "kengoon19@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Operating System :: Android",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: POSIX :: BSD :: FreeBSD",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: iOS",
+    "Operating System :: MacOS",
+    "Operating System :: MacOS :: MacOS X",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: X11 Applications",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/kengoon/KivyGradient"
+Repository = "https://github.com/kengoon/KivyGradient.git"
+Documentation = "https://github.com/kengoon/KivyGradient/blob/master/README.md"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "kivy_gradient"
+module-root = ""
